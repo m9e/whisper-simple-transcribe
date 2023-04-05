@@ -11,7 +11,7 @@ bash-3.2$ cat <<EOF
 > This is a short audio clip just to demonstrate the transcribed code.
 ```
 
-
+If you use the bash wrapper, be sure to change your VENV_PATH in the transcribe file
 
 Put this directory on your path to be able to call transcribe, make sure it has +x bit set
 
