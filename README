@@ -1,3 +1,18 @@
+Simple code to transcribe audio. You can put the code directory on path to call 'transcribe' which is a bash invoker which will source bin/activate; Processors/AudioProcessor.py reads your OpenAI api key from OPENAI_API_KEY env var, which I set in my venv activate but you can modify that as you please.
+
+Usage example:
+
+```
+bash-3.2$ export PATH=$PATH:~/code/transcriber
+bash-3.2$ transcribe ~/demo.m4a 
+This is a short audio clip just to demonstrate the transcribed code.
+Transcript copied to clipboard.
+bash-3.2$ cat <<EOF
+> This is a short audio clip just to demonstrate the transcribed code.
+```
+
+
+
 Put this directory on your path to be able to call transcribe, make sure it has +x bit set
 
 
