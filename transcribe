@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -ex
+set -e
 
 # set the path to your virtual environment
 VENV_PATH="/Users/matt/code/transcriber"
