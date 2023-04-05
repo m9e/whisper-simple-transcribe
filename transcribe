@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -ex
+
+# set the path to your virtual environment
+VENV_PATH="/Users/matt/code/transcriber"
+
+# Activate the virtual environment
+source "${VENV_PATH}/bin/activate"
+
+# Run your Python script with the activated virtual environment
+python /Users/matt/code/transcriber/transcribe.py "$@"
+
+# Deactivate the virtual environment
+deactivate
+
